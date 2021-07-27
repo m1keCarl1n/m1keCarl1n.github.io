@@ -102,8 +102,8 @@
         <h2>Рассчет стоимости</h2>
         <div class="type">
             <h3>Тип сайта</h3>
-            <div class="select"> 
-                <select name="type_site" id="">
+            <div>
+                <select class="select" name="type_site" id="">
                     <option value="opt1">Интернет магазин</option>
                     <option value="opt2">Визитная карточка</option>
                     <option value="opt3">Новостной портал</option>
@@ -112,8 +112,8 @@
         </div>
         <div class="designe">
             <h3>Дизайн</h3>
-            <div class="select">
-                <select name="design" id="">
+            <div>
+                <select class="select" name="design" id="">
                     <option value="opt4">Современный</option>
                     <option value="opt5">Стиль 90ых</option>
                     <option value="opt6">Детский</option>
@@ -122,8 +122,8 @@
         </div>
         <div class="adapt">
             <h3>Адаптивность</h3>
-            <div class="select"> 
-                <select name="adpat" id="">
+            <div>
+                <select class="select" name="adpat" id="">
                     <option value="opt7">Опытные пользователи</option>
                     <option value="opt8">Начинающие пользователи</option>
                     <option value="opt9">Чтоб все было понятно даже ребенку</option>
@@ -136,42 +136,61 @@
             <p> Стоимость <span> 0 </span></p>
         </div>
     </div>
-    <div class=" statis">
-            <h2 id="head_4">НЕМНОГО СТАТИСТИКИ</h2>
-            <p> <big><b>4</b></big> <br><span> Счастливых клиентов</span></p>
-            <p> <big><b>15</b></big> <br><span> Часов работы</span></p>
-            <p> <big><b>1</b></big> <br><span> Проектов завершено</span></p>
-            <p> <big><b>2</b></big> <br><span> Наград получено</span></p>
-        </div>
-        <div class="reviews">
-            <h2 id="head_5">ОТЗЫВЫ</h2>
-            <p><img src="img/cat.png" alt="" width="200" height="200"></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugit nulla aperiam consequuntur odio
-                laudantium
-                voluptates qui neque. Iure neque ducimus tempore ab laudantium alias eligendi quo pariatur expedita
-                ipsam?
-            </p>
-            <p>Котейка, домашний любимец</p>
-        </div>
-        <div class="my_contact">
-            <h2 id="head_6"> МОИ КОНТАКТЫ </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, pariatur.</p>
-            <div class="info">
-                <p>Мурманск, проспект Ленина 1</p>
-                <p>example@.com</p>
-                <p>8-999-111-22-33</p>
+    <div class="statis">
+        <h2>НЕМНОГО СТАТИСТИКИ</h2>
+        <hr width="250px" color="#ffffff" align="line" size="6">
+        <div class="example_flex">
+            <div>
+                <img src="img/smile.png" alt="Смайл">
+                <h4>4</h4>
+                <p> Счастливых клиентов</p>
             </div>
-            <div class="massege">
-                <h3 id="head_6_1">ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h3>
-                <input type="text" name="inp_name" id="inp_name" placeholder="Ваше Имя" value="">
-                <input type="email" name="email" id="email" placeholder="Ваша почта (e-mail)" value="">
-                <p><textarea name="" id="" cols="90" rows="5"></textarea></p>
-                <input type="button" name="sent" id="sent" value="Отправить">
+            <div>
+                <img src="img/clock.png" alt="Часы">
+                <h4>15</h4>
+                <p> Часов работы</p>
+            </div>
+            <div>
+                <img src="img/galka.png" alt="Галочка">
+                <h4>1</h4>
+                <p> Проектов завершено</p>
+            </div>
+            <div>
+                <img src="img/kubok.png" alt="Кубок">
+                <h4>4</h4>
+                <p> Наград получено</p>
             </div>
         </div>
-        <div class="map">
-            <img src="" alt="Место положения меня" width="2000" height="400">
+    </div>
+    <div class="reviews">
+        <h2 id="head_5">ОТЗЫВЫ</h2>
+        <p><img src="img/cat.png" alt="" width="200" height="200"></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugit nulla aperiam consequuntur odio
+            laudantium
+            voluptates qui neque. Iure neque ducimus tempore ab laudantium alias eligendi quo pariatur expedita
+            ipsam?
+        </p>
+        <p>Котейка, домашний любимец</p>
+    </div>
+    <div class="my_contact">
+        <h2 id="head_6"> МОИ КОНТАКТЫ </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, pariatur.</p>
+        <div class="info">
+            <p>Мурманск, проспект Ленина 1</p>
+            <p>example@.com</p>
+            <p>8-999-111-22-33</p>
         </div>
+        <div class="massege">
+            <h3 id="head_6_1">ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h3>
+            <input type="text" name="inp_name" id="inp_name" placeholder="Ваше Имя" value="">
+            <input type="email" name="email" id="email" placeholder="Ваша почта (e-mail)" value="">
+            <p><textarea name="" id="" cols="90" rows="5"></textarea></p>
+            <input type="button" name="sent" id="sent" value="Отправить">
+        </div>
+    </div>
+    <div class="map">
+        <img src="" alt="Место положения меня" width="2000" height="400">
+    </div>
 </body>
 <footer class="fooot">
     <p>Copyright © Mike Carlin. Design by Web</p>
