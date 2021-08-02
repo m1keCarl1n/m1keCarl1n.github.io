@@ -18,6 +18,9 @@ nav {
     font-size: 28px;
     line-height: 60px;  
     margin: 0;
+    -o-animation-name: move;
+    -webkit-animation-name: move;
+    -moz-animation-name: move;
     animation-name: move;
     animation-duration: 1s;
     animation-timing-function: ease;
