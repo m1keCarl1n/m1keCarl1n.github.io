@@ -319,14 +319,17 @@ nav {
 
 .cost {
     height: 90%;
-    width: 90%;
-    margin: 0% 0% 0% 5%;
+    width: 1320px;
+    max-width: 90%;
+    min-width: 30%;
     box-shadow: 4px 4px 10px #000;
     background: rgb(233, 123, 206, 0.5);
+    margin: 0 auto;
+    padding-top: 100px;
 }
 
 .cost hr {
-    margin-left: 450px;
+    margin: 15px auto;   
 }
 
 .cost>h2 {
@@ -346,40 +349,46 @@ nav {
     color: #175E64;
 }
 
-.type {
-    margin: 60px 0px 50px 450px;
-    text-align: start;
-}
-
-.designe {
-    margin: 60px 0px 50px 450px;
-    text-align: start;
-}
-
-.adapt {
-    margin: 60px 0px 40px 450px;
-    text-align: start;
-}
-
 .select {
     height: 60px;
-    width: 900px;
+    width: 100%;
     background-color: cornsilk;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: #175E64;
     font-weight: bold;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 10px;
 
+}
+
+.type {
+    margin: 0 25%;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.designe {
+    margin: 0 25%;
+    text-align: start;
+    margin-bottom: 10px
+}
+
+.adapt {
+    margin: 0 25%;
+    text-align: start;
+    margin-bottom: 10px
 }
 
 .total {
-    margin-left: 450px;
-    margin-top: 25px;
     width: 900px;
+    height: 100px;
+    
+    display: block;
 }
-
+.total hr {
+    margin: 15px auto; 
+}
 
 .total p {
     font-size: 25px;
@@ -390,6 +399,7 @@ nav {
 .total span {
     float: right;
 }
+
 
 .statis {
     width: 100%;
